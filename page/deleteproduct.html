@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>删除商品</title>
+    <link rel="stylesheet" href="../css/deleteproduct.css">
+</head>
+<body>
+<div id="right3">
+    <div id="deleteproduct_left">
+        <ul id="goodsID">
+            <li id="goods_ID" >商品ID</li>
+            <li>
+                <input type="text" id="goods_ID_input" placeholder="商品ID号">
+                <input type="button" id="goods_IDget_button" value="获取ID信息">
+            </li>
+            <li>
+                <div>商品名称</div>
+            </li>
+            <li><input type="text" placeholder="商品名称" id="goods_name_delete_select">
+            </li>
+            <li>
+                <div>商品价格</div>
+                <div>商品库存</div>
+            </li>
+            <li>
+                <input type="text" placeholder="商品价格">
+                <input type="text" placeholder="商品库存">
+            </li>
+            <li>
+                <div>商品品牌</div>
+                <div>商品类型</div>
+            </li>
+            <li>
+                <input type="text" placeholder="商品品牌">
+                <input type="text" placeholder="商品类型">
+            </li>
+        </ul>
+    </div>
+    <div id="deleteproduct_center">
+        <ul id="goodsmessage">
+            <li>生产日期</li>
+            <li><input type="text" placeholder="年/月/日"></li>
+            <li>商品标题</li>
+            <li><input type="text"placeholder="商品标题"></li>
+            <li>商品介绍</li>
+            <li><div id="product_introduce"><input type="text"id="product_introduce_input"></div></li>
+            <li><input type="submit" value="确认提交" class="deletebutten"></li>
+        </ul>
+    </div>
+    <div id="addproduct_right">
+        <ul id="goodspicture">
+            <li><div></div></li>
+            <li><input type="button" value="选择图片" id="picture_button"></li>
+            <li><div id="product_picture"><input type="text"class="product_picture_input"></div></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
